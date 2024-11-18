@@ -1,0 +1,207 @@
+body{
+  background-color: rgb(226, 250, 250);
+}
+.landing_page a button{
+    border:1px solid black;
+    padding: 13px 20px;
+    width: 250px;
+    margin: 10px 0px;
+    border-radius: 20px 0px;
+    background-color: rgb(100, 250, 100);
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    transition: .3s;
+}
+.landing_page a button:hover{
+  box-shadow: 0 0 5px white;
+}
+
+.landing_page a button{
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.login_main input{
+  width: 250px;
+  padding: 5px 0px;
+  font-size: 15px;
+  margin: 5px 0px;
+}
+
+.course_img{
+  width: 290px;
+  height: 300px;
+  overflow: hidden;
+}
+.course_img img{
+  width: 100%;
+  height: 100%;
+  transition: .3s;
+}
+.course_card:hover img {
+  transform: scale(1.03);
+}
+.course_card{
+  box-shadow: 0 0 5px black;
+  margin: 20px;
+}
+.course_card:hover{
+  box-shadow: 0 0 5px orange;
+  cursor: pointer;
+}
+.course_info{
+  text-align: center;
+  background-color: aliceblue;
+  padding: 10px 0px;
+}
+
+.course_btn{
+  background-color: orangered;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+}
+.course_btn:hover{
+  background-color: red;  
+}
+
+.admin_manage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  justify-content: center;
+}
+.admin_manage a button{
+  width: 200px;
+  padding: 15px 0px;
+  margin-top: 20px;
+  border-radius: 15px 0px;
+  background-color: rgb(255, 107, 53);
+  box-shadow: 0 0 7px black;
+  border: 1px solid black;
+  font-weight: 700;
+  transition: .5s;
+}
+.admin_manage a button:hover{
+  box-shadow: 0 0 7px wheat;
+}
+
+.course_add_info{
+  box-shadow: 0 0 5px orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30%;
+  padding: 20px;
+}
+.course_add_info label img{
+  border: 2px dashed gray;
+}
+.course_add_info input{
+  margin: 12px 30px;
+  padding: 5px 0px;
+}
+.course_add_info button{
+  background-color: orangered;
+  border: none;
+  padding: 5px 20px;
+  margin-top: 10px
+}
+.course_add_info button:hover{
+  background-color: red;
+}
+.course_add_info:hover{
+  box-shadow: 0 0 5px red;
+}
+
+.user_list {
+  border-collapse: collapse; 
+  margin: 10% 0px;
+  /* position: relative;
+  top: 60px;
+  left: 150px; */
+}
+
+.user_list th, .user_list td {
+  border: 1px solid black;
+  padding: 10px; 
+  text-align: center;
+}
+.user_list th{
+  background-color: rgb(140, 140, 140);
+}
+.user_list tr:nth-child(even){
+  background-color: rgb(248, 248, 248);
+}
+
+.image-container {
+  border: 2px solid black;
+  border-radius: 50%; 
+  width: fit-content;
+  padding: 10px; 
+  display: inline-block;
+  background-color: rgb(227, 211, 211);
+}
+
+.profile-image {
+  width: 350px; 
+  height: 350px; 
+  border-radius: 50%; 
+  object-fit: cover;  
+  background-color: rgb(72, 61, 61);
+}
+
+table th h3{
+  margin-top: 20px;
+}
+
+.login_child{
+  background-color:rgb(243, 169, 31);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 5px 5px 10px black;
+}
+.login_child input{
+  margin: 5px 30px;
+  padding: 5px 5px;
+
+}
+.login_child button{
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  border: 1px solid white;
+}
+
+.login_main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(243, 169, 31);
+  padding: 30px 20px;
+  box-shadow: 5px 5px 10px black;
+}
+.login_main h2{
+  padding-bottom: 10px;
+}
+
+.login_main button{
+  margin-top: 25px;
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+}
